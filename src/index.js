@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { PlayArea } from "./playArea.js";
 
 function App() {
-  return <h1>Blank</h1>;
+  return PlayArea();
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
