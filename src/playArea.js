@@ -1,5 +1,6 @@
 import React from "react";
 import ImageBase from "./component/imageBase.js";
+import GhCardBase from "./component/ghCardBase.js";
 import {
   CardsToPlay,
   SelectedCards,
@@ -21,9 +22,9 @@ export function PlayArea() {
     <>
       <CardsToPlay>
         <center>PlayArea</center>
-        <ImageBase src={mt["mt-back"]} width={175}></ImageBase>
-        <ImageBase src={mt["possession"]} width={175}></ImageBase>
-        <ImageBase src={mt["perverse-edge"]} width={175}></ImageBase>
+        <GhCardBase src={mt["mt-back"]} width={175} cardId="test"></GhCardBase>
+        <GhCardBase src={mt["possession"]} width={175}></GhCardBase>
+        <GhCardBase src={mt["perverse-edge"]} width={175}></GhCardBase>
         <ImageBase src={mt["fearsome-blade"]} width={175}></ImageBase>
         <ImageBase src={mt["hostile-takeover"]} width={175}></ImageBase>
       </CardsToPlay>
