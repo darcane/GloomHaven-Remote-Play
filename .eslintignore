@@ -1,0 +1,8 @@
+# cache
+.cache
+
+#dist
+dist
+
+# gloomhaven submodule
+src/gloomhaven
