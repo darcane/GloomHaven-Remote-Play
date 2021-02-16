@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageBase } from "./mainComponents.js";
+import ImageBase from "./component/imageBase.js";
 import {
   CardsToPlay,
   SelectedCards,
